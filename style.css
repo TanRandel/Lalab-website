@@ -1,6 +1,6 @@
 @font-face {font-family: 'Marola'; src: url("//db.onlinewebfonts.com/t/32026f24f42d61d41b540609a4cd90a5.eot"); src: url("//db.onlinewebfonts.com/t/32026f24f42d61d41b540609a4cd90a5.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/32026f24f42d61d41b540609a4cd90a5.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/32026f24f42d61d41b540609a4cd90a5.woff") format("woff"), url("//db.onlinewebfonts.com/t/32026f24f42d61d41b540609a4cd90a5.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/32026f24f42d61d41b540609a4cd90a5.svg#Marola") format("svg"); }
 body {
-    background-image: url("Images/wah.gif");
+    background-image: url("wah.gif");
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
