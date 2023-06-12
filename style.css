@@ -1,0 +1,72 @@
+@font-face {font-family: 'Marola'; src: url("//db.onlinewebfonts.com/t/32026f24f42d61d41b540609a4cd90a5.eot"); src: url("//db.onlinewebfonts.com/t/32026f24f42d61d41b540609a4cd90a5.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/32026f24f42d61d41b540609a4cd90a5.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/32026f24f42d61d41b540609a4cd90a5.woff") format("woff"), url("//db.onlinewebfonts.com/t/32026f24f42d61d41b540609a4cd90a5.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/32026f24f42d61d41b540609a4cd90a5.svg#Marola") format("svg"); }
+body {
+    background-image: url("Images/wah.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+    height: 100%;
+}
+
+.title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px;
+    color: rebeccapurple;
+    font-size: 100px;
+    font-family: 'Marola', sans-serif;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.text {
+    text-align: center;
+    margin-top: 20px;
+    color: purple;
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.image {
+    margin: 10px;
+    width: 250px;
+    height: 250px;
+}
+.image-bottom-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.image-bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
